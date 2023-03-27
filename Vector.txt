@@ -1,0 +1,42 @@
+Array dinamici, che possono crescere e decrescere in grandezza.
+
+Non dobbiamo dichiarare il massimo degli elementi disponibili, possiamo semplicemente aggiungere e togliere elementi.
+
+class Punto{
+    int x, y;
+
+    public Punto (int x, int y){
+        this.x = x;
+        this.y = y;
+    }
+}
+
+class TestPunto{
+
+    public static void main (String arg[]){
+        //Utilizziamo i punti per creare un poligono, posso aumentare il numero di punti
+        // come dichairare un poligono?
+
+        Vector<Punto> poligono = new Vector<Punto> (1,1);
+
+        //creo un vettore di punti, che inizia con un elemento e aggiunge un punto ogni volta.
+
+        //add(), remove(), get(), size() e set().
+
+        //vector.add(oggetto) serve per aggiungere un oggetto al vettore.
+
+        //vector.size() restituisce un numero che coincide con la grandezza attuale del vettore. si usa per iterare tra gli 
+        //elementi in un particolare momento
+
+        //vector.remove(indice) bisogna controllare che l'indice preso in input esista (sia interno alla grandezza e sia maggiore di
+        // zero)
+
+        //vector.get(indice) ritorna l'oggetto in quell'indice, come se fosse x = array[i], lo si usa per visualizzare i punti 
+        //e lavorare con essi.
+
+        //vector.(indice, oggetto) serve per sostituire un elemento con un altro all'interno del vettore, si utilizza per prelevare e 
+        // modificare un elemento (es. modificare le coordinate).
+         
+
+    }
+}
